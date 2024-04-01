@@ -23,8 +23,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Deploy to server (example)
+    #steps:
+      #- name: Deploy to server (example)
         # Add your deployment steps here
 
   test:
