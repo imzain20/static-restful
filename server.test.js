@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./server'); // Assuming your server file is named server.js
+const app = require('./server'); 
 
 describe('Sample API Tests', () => {
   it('responds with JSON message', async () => {
